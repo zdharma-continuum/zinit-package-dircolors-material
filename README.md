@@ -1,4 +1,4 @@
-# zpm-zsh/dircolors-material as a Zsh/NPM package
+# zpm-zsh/dircolors-material Zplugin package
 
 ##### Homepage link: [zpm-zsh/dircolors-material](https://github.com/zpm-zsh/dircolors-material)
 
