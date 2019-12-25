@@ -51,7 +51,7 @@
             "default": {
                 "git": "",
                 "lucid": "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors > colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!",
@@ -59,7 +59,7 @@
             "no-zsh-completion": {
                 "git": "",
                 "lucid": "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors > colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!"
