@@ -51,6 +51,7 @@
             "default": {
                 "git": "",
                 "lucid": "",
+                "reset" : "",
                 "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
@@ -59,6 +60,7 @@
             "no-zsh-completion": {
                 "git": "",
                 "lucid": "",
+                "reset" : "",
                 "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
