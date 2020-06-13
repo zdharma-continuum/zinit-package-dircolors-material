@@ -31,7 +31,7 @@
         "test": "test"
     },
 
-    "homepage": "https://github.com/zpm-zsh/dircolors-material",
+    "homepage": "https://github.com/zpm-zsh/material-colors",
     "keywords": [
         "GNU ls colors",
         "exa colors",
@@ -44,7 +44,7 @@
     "zsh-data": {
         "plugin-info": {
             "user": "zpm-zsh",
-            "plugin": "dircolors-material",
+            "plugin": "material-colors",
             "version": "1.0.3"
         },
         "zplugin-ices": {
