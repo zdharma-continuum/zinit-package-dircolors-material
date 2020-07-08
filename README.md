@@ -76,7 +76,7 @@ The Zinit command executed will be equivalent to:
 ```zsh
 zinit lucid \
  atclone'(( !${+commands[dircolors]} )) && local P=g; \
-    TERM=ansi ${P}dircolors -b dircolors-material > colors.zsh' \
+    TERM=ansi ${P}dircolors -b dircolors-material >! colors.zsh' \
  atpull'%atclone' pick"colors.zsh" nocompile'!' \
  atload'zstyle ":completion:*:default" list-colors "${(s.:.)LS_COLORS}";' for \
     zpm-zsh/dircolors-material
