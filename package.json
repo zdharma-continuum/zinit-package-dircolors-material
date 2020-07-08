@@ -52,7 +52,7 @@
                 "git": "",
                 "lucid": "",
                 "reset" : "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; TERM=ansi ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!",
@@ -61,7 +61,7 @@
             "no-color-swaps": {
                 "git": "",
                 "lucid": "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}dircolors -b material.dircolors >! colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; TERM=ansi ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!",
@@ -71,7 +71,7 @@
                 "git": "",
                 "lucid": "",
                 "reset" : "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; ${P}dircolors -b material.dircolors >! colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}sed -i '/DIR/c\\DIR 38;5;63;1' material.dircolors; TERM=ansi ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!"
@@ -79,7 +79,7 @@
             "minimal": {
                 "git": "",
                 "lucid": "",
-                "atclone": "(( !${+commands[dircolors]} )) && local P=g; ${P}dircolors -b material.dircolors >! colors.zsh",
+                "atclone": "(( !${+commands[dircolors]} )) && local P=g; TERM=ansi ${P}dircolors -b material.dircolors >! colors.zsh",
                 "atpull": "%atclone",
                 "pick": "colors.zsh",
                 "nocompile": "!"
