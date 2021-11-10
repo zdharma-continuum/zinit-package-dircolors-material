@@ -26,7 +26,7 @@ use the definitions.
 
 Example invocations that'll install `zpm-zsh/dircolors-material` from Git
 repository in the most optimized way as described on the [Zinit
-Wiki](http://zdharma.org/zinit/wiki/LS_COLORS-explanation/):
+Wiki](https://zdharma-continuum.github.io/zinit/wiki/LS_COLORS-explanation/):
 
 ```zsh
 # Download the default profile
