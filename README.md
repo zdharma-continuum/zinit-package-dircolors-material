@@ -8,7 +8,7 @@
 
 ## Introduction
 
-[Zinit](https://github.com/zdharma/zinit) can use a `package.json`
+[Zinit](https://github.com/zdharma-continuum/zinit) can use a `package.json`
 (similar in construct to the one used in `npm` packages) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
