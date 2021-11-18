@@ -1,3 +1,7 @@
+# Deprecated
+
+❗ All zinit-packages have been migrated to https://github.com/zdharma-continuum/zinit-packages
+You'll find the source for this here package in https://github.com/zdharma-continuum/zinit-packages/tree/HEAD/dircolors-material
 # zpm-zsh/dircolors-material Zinit package
 
 ##### Homepage link: [zpm-zsh/dircolors-material](https://github.com/zpm-zsh/dircolors-material)
